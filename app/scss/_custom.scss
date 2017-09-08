@@ -1,11 +1,33 @@
 // Bootstrap overrides
+$green:   #1BBC9B;
 
 body {
   padding-top: 3.5rem;
 }
+
+.btn{
+    border-radius: 0 !important;
+    &:focus{
+      box-shadow: none !important;
+      outline: none !important;
+    }
+  }
 
 .btn-primary{
   @extend .bg-dark;
   border-radius: 0 !important;
   border: none !important;
 }
+
+.search-form{
+  .form-control{
+    border-radius: 0 !important;
+    &:focus{
+      border-color: currentColor;
+    }
+  }
+  .btn-success{
+    cursor: pointer;
+  }
+}
+

@@ -1,0 +1,11 @@
+// Bootstrap overrides
+
+body {
+  padding-top: 3.5rem;
+}
+
+.btn-primary{
+  @extend .bg-dark;
+  border-radius: 0 !important;
+  border: none !important;
+}
